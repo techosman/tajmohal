@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ddd;
+    font-family: tahoma;
+    font-size: 20px;
+}
+.main, .slider, .slider img, .nav, .nav ul, .nav ul li
+{
+    width: 100%;
+}
+.main, .slider, .slider img, .nav, .nav ul, .nav ul li 
+{
+    float: left;
+}
+.nav ul li{
+    background-color: #000;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+}
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+.content h1{
+    margin: 20px 40px;
+    padding: 10px 0px;
+    color: red;
+    border-bottom: 8px solid red;
+    width: 75%;
+}
+.content p{
+    padding: 10px 30px;
+}.content{
+    margin-top: 30px;
+}
+.nav ul li{
+    position: sticky;
+    top: -200px;
+}
